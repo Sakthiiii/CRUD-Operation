@@ -1,0 +1,105 @@
+body {
+  background-image: linear-gradient(
+    to right top,
+    #2cd4d3,
+    #00d9c2,
+    #00dda9,
+    #35df89,
+    #63df62
+  );
+  /* padding: 20px; */
+  padding-left: 440px;
+}
+.h {
+  padding-left: 30px;
+  color: #db00b5;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.user-img {
+  border-radius: 50%;
+  transition: 0.6s;
+}
+.user-img:hover {
+  transform: scale(1.2);
+  object-position: center;
+  border-radius: 10px;
+}
+.user-container {
+  background-color: #00ce85;
+  padding: 10px;
+  margin: 10px;
+  gap: 10px;
+  display: flex;
+  border-radius: 20px;
+  margin-top: 20px;
+  transition: 0.5s;
+  align-items: flex-start;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 15px 25px rgba(0, 0, 1, 0.2);
+}
+.user-name {
+  margin-top: 5px;
+  font-family: Blackadder ITC;
+  padding-left: 10px;
+}
+.user-container:hover {
+  color: rgb(221, 55, 55);
+  transform: scale(1.1);
+}
+.user-input {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 300px;
+  padding-left: 60px;
+}
+.add {
+  background-color: lightblue;
+  border-color: #009eff;
+  border-radius: 20px;
+  width: 100px;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.add:hover {
+  transform: scale(1.2);
+  background-color: #009eff;
+}
+.delete {
+  background-color: lightcoral;
+  border-radius: 10px;
+  border-color: red;
+  transition: 0.6s;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.delete:hover {
+  background-color: red;
+  transform: scale(1.1);
+}
+.edit {
+  background-color: greenyellow;
+  border-radius: 10px;
+  margin-left: 10px;
+  border-color: green;
+  transition: 0.6s;
+  font-weight: bold;
+}
+.edit:hover {
+  background-color: green;
+  transform: scale(1.1);
+}
+.user-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 350px;
+  padding-left: 50px;
+  
+}
+.name{
+  text-align: center;
+  border-radius: 10px;
+}
